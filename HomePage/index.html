@@ -1,0 +1,221 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img id="menulogo" src="../Asset/navbaricon-removebg-preview.png" alt="navbarIcon" onclick="openbar()">
+
+        <div class="judul">
+            <img src="../Asset/Screenshot_2024-10-17_073303-removebg-preview.png" alt="Logo" style="width: 50px;">
+            <h1>RS.OKAN</h1>
+        </div>
+        <div class="loginarea">
+            <a id="login"
+                href="../Login/tugas.html">Login</a>
+        </div>
+    </header>
+
+    <div id="sidebar" class="sidebar">
+        <h2 style="color: #5080fd;">Menu</h2>
+        <a href="javascript:void(0)" class="closebtn" onclick="closebar()">&times;</a>
+        <button class="tablink">Home</button>
+        <button class="tablink">Chat Dokter</button>
+        <button class="tablink">Toko Obat</button>
+        <button class="tablink">Buat Janji RS</button>
+    </div>
+    <div class="banner">
+        <div class="banner-content">
+            <h1>Solusi Kesehatan Terlengkap</h1>
+            <h4>Chat dokter, kunjungi rumah sakit, beli obat, cek lab dan update informasi seputar kesehatan.
+            </h4>
+        </div>
+        <div class="banner-items">
+            <div class="outer-wrapper" id="chatdokter" onclick="window.location.href = '../chatdokter/chatdokter.html';">
+                <div class="inner-wrapper">
+                    <img src="../Asset/chatdokter.png" alt="ChatDokter" id="chatdokterimg"  height="80">
+                </div>
+                <div class="banner-items-title">
+                    <h3>Chat Dokter</h3>
+                </div>
+            </div>
+            <div class="outer-wrapper" id="tokoobat" onclick="window.location.href = '../tokoobat/tokoobat.html';">
+                <div class="inner-wrapper">
+                    <img src="../Asset/tokoobat.png" alt="ChatDokter" id="tokoobatimg" height="80px">
+                </div>
+                <div class="banner-items-title">
+                    <h3>Toko Obat</h3>
+                </div>
+            </div>
+            <div class="outer-wrapper" id="janjirs" onclick="window.location.href = '../janjirs/janjirs.html';">
+                <div class="inner-wrapper">
+                    <img src="../Asset/buatjanjirs.png" alt="ChatDokter" id="janjirsimg" height="80px">
+                </div>
+                <div class="banner-items-title">
+                    <h3>Buat Janji RS</h3>
+                </div>
+            </div>
+        </div>
+        <div class="banner-asuransi">
+            <div class="outer-wrapper-asuransi">
+                <div class="inner-wrapper-asuransi">
+                    <img src="../Asset/asuransi.png" alt="" width="100px">
+                    <div class="asuransi-text">
+                        <div class="asuransi-text-judul">
+                            <h2>Sambungkan Asuransimu</h2>
+                        </div>
+                        <div class="asuransi-text-paragraf">
+                            <h4>Dapatkan manfaat asuransi secara <br> langsung untuk layanan RS.Okan</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-image">
+            <img src="../Asset/Screenshot_2024-11-18_094036-removebg-preview.png" alt="" height="370" id="back">
+            <img src="../Asset/1731652759828.png" alt="" width="420px" id="front">
+        </div>
+    </div>
+
+    <div class="layanan">
+        <div class="layanan-title">
+            <h1>Layanan Khusus</h1>
+        </div>
+        <div class="layanan-items">
+            <div class="layanan-outer-wrapper">
+                <div class="layanan-inner-wrapper">
+                    <img src="../Asset/Layanan/tc-mw-home.webp" alt="" height="80px">
+                </div>
+                <div class="layanan-items-title">
+                    <h2>Layanan Bidan</h2>
+                </div>
+            </div>
+            <div class="layanan-outer-wrapper">
+                <div class="layanan-inner-wrapper">
+                    <img src="../Asset/Layanan/diabetes-care.webp" alt="" height="80px">
+                </div>
+                <div class="layanan-items-title">
+                    <h2>Perawatan Diabetes</h2>
+                </div>
+            </div>
+            <div class="layanan-outer-wrapper">
+                <div class="layanan-inner-wrapper">
+                    <img src="../Asset/Layanan/heart-care.webp" alt="" height="80px">
+                </div>
+                <div class="layanan-items-title">
+                    <h2>Kesehatan Jantung</h2>
+                </div>
+            </div>
+            <div class="layanan-outer-wrapper">
+                <div class="layanan-inner-wrapper">
+                    <img src="../Asset/Layanan/skin-health.webp" alt="" height="80px">
+                </div>
+                <div class="layanan-items-title">
+                    <h2>Kesehatan Kulit</h2>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="penunjang-kesehatan">
+        <div class="layanan-title">
+            <h1>Layanan Khusus</h1>
+        </div>
+        <div class="layanan-items">
+            <div class="layanan-outer-wrapper">
+                <div class="layanan-inner-wrapper">
+                    <img src="../Asset/Layanan/bmi-calculator-v2.webp" alt="" height="80px">
+                </div>
+                <div class="layanan-items-title">
+                    <h2>Kalkulator BMI</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-wrapper">
+                <div class="kontak">
+                    <div class="kontak-title">
+                        <h1>KONTAK KAMI</h1>
+                    </div>
+                    <div class="kontak">
+                        <div class="kontak-flex">
+                            <img src="../Asset/Footer/LOKASI.png" alt="" width="50px">
+                            <div class="flex-text">
+                                <h3>JL.Gunung Sari Blok 12 No.32</h3>
+                            </div>
+                        </div>
+                        <div class="kontak-flex">
+                            <img src="../Asset/Footer/TELEPON.png" alt="" width="50px">
+                            <div class="flex-text">
+                                <h3>0857-6327-1277</h3>
+                            </div>
+                        </div>
+                        <div class="kontak-flex">
+                            <img src="../Asset/Footer/EMAIL.png" alt="" width="50px">
+                            <div class="flex-text">
+                                <h3>rsokan@gmail.com</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sosmed">
+                    <div class="sosmed-title">
+                        <h1>SOSIAL MEDIA</h1>
+                    </div>
+                    <div class="sosmed">
+                        <div class="kontak-flex">
+                            <img src="../Asset/Footer/INSTAGRAM.png" alt="" width="50px">
+                            <div class="flex-text">
+                                <h3>@rumahsakitokan</h3>
+                            </div>
+                        </div>
+                        <div class="kontak-flex">
+                            <img src="../Asset/Footer/FACEBOOK.png" alt="" width="50px">
+                            <div class="flex-text">
+                                <h3>@rumahsakitokan</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jampelayanan">
+                    <div class="jam-igd-title">
+                        <h1>JAM PELAYANAN IGD</h1>
+                    </div>
+                    <div class="jam-igd">
+                        <div class="kontak-flex">
+                            <div class="flex-text">
+                                <h3>Senin - Minggu 24 Jam</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jam-poli-title">
+                        <h1>JAM PELAYANAN POLI</h1>
+                    </div>
+                    <div class="jam-poli">
+                        <div class="kontak-flex">
+                            <div class="flex-text">
+                                <h3>Senin - Jumat 08.00 - 15.00</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h2>Copyright &copy Rumah Sakit Okan | All rights reserved</h2>
+        </div>
+    </footer>
+
+    <script src="testing.js"></script>
+
+</body>
+
+</html>
